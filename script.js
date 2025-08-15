@@ -1,7 +1,7 @@
 // Page load message
 window.addEventListener("DOMContentLoaded", function () {
     console.log("UltraEdit download page loaded successfully!");
-    alert("Welcome to the UltraEdit download page!");
+    alert("Welcome to the UltraEdit download page! made by Euclid");
 });
 
 // Track clicks on all download buttons
@@ -11,3 +11,4 @@ document.querySelectorAll(".button a").forEach(button => {
         // You could also send this info to analytics if needed
     });
 });
+
